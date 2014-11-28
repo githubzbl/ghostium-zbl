@@ -2260,7 +2260,7 @@ html {
 
 body {
     /*font: 400 20px/1.6 "Lora",Georgia,Cambria,"Times New Roman",Times,serif;*/
-    font: 400 20px/1.62 "Lora", Georgia, "Xin Gothic", "STXihei", Cambria,"Droid Sans Fallback", "Microsoft YaHei", sans-serif;
+    font: 400 18px/1.62 "Lora", Georgia, "Xin Gothic", "STXihei","Hiragino Sans GB", Cambria,"Droid Sans Fallback", "Microsoft YaHei", sans-serif;
     background: #fff;
     color: #333
 }
