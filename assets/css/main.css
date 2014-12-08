@@ -3474,3 +3474,13 @@ pre[class*=language-] {
 .gist {
     font-size: 14px
 }
+
+.go-top {
+    position: fixed;
+    font-size: 40px;
+    right: 10%;
+    bottom: -110px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+}

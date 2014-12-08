@@ -658,6 +658,9 @@ var Drawer = function(a, b) {
                 case "close-drawer":
                     Drawer.close();
                     break;
+                case "share-weibo":
+                    h("http://service.weibo.com/share/share.php?title="+ encodeURIComponent(c.title) + "&url=" + encodeURIComponent(location.href), 450, 300);
+                    break;
                 case "share-gplus":
                     h("https://plus.google.com/share?url=" + encodeURIComponent(location.href), 600, 600);
                     break;
