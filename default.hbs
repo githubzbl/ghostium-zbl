@@ -33,7 +33,7 @@
     <link href="//fonts.useso.com/css?family=Lora:400,700,400italic,700italic|Lato:700,400,400italic,700italic&subset=latin,latin-ext" rel="stylesheet">
    
 
-    <link rel="stylesheet" href="{{asset 'css/main.css'}}"/>
+    <link rel="stylesheet" href="{{asset 'css/main.min.css'}}"/>
 
     <script type="text/javascript">
       {{> custom/config}}
@@ -79,7 +79,7 @@
 
     {{ghost_foot}}
 
-    <script src="{{asset 'js/foot-scripts.js'}}"></script>
+    <script src="{{asset 'js/foot-scripts.min.js'}}"></script>
 
     <script type="text/javascript">
 
@@ -90,7 +90,7 @@
         t.src='//www.google-analytics.com/analytics.js';
         z.parentNode.insertBefore(t,z)}(window,document,'script','ga'));
         ga('create',ga_ua);ga('send','pageview');
-        ga(‘set’, ‘&uid’, {{UA-56185102-1}}); 
+        ga('set', '&uid', 'UA-56185102-1'); 
       }
       if(GHOSTIUM.haveDisqus) {
         (function () {
